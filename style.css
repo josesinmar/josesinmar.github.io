@@ -1,0 +1,139 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: yellowgreen;
+    
+}
+.contenedor_principal{
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+body{
+    font-family:"Montserrat", sans-serif;
+    background-image: url("fondo2.jpg");
+    
+}
+.contenedor{
+    margin-left: 5em;
+    max-width: 100%;
+    
+}
+h4{
+    margin-left: 5em;
+}
+.title_columnas{
+    text-align: center;
+    font-size : 2em;
+}
+.contenedor-columnas{
+    width: 100%;
+    margin-left: 4em;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.columnax1{
+    font-size: 15PX;
+    width: 26,333%;
+    float: left;
+    padding:10px 15px ;
+    box-sizing: border-box;
+    margin: 15px 5px;
+    max-width: 100%;
+}
+.columnax2{
+    font-size: 15PX;
+    width: 26,333%;
+    float: left;
+    padding:10px 15px ;
+    box-sizing: border-box;
+    margin: 15px 5px;
+    max-width: 100%;
+}
+.columnax3{
+    font-size: 15PX;
+    width: 26,333%;
+    float: left;
+    padding:10px 15px ;
+    box-sizing: border-box;
+    margin: 15px 5px;
+    max-width: 100%;
+}
+.lista_habilidades{
+    font-size: 15PX;
+    width: 100%;
+    float: left;
+    padding-right: 15em;
+   margin-right: 15em;
+   margin-left: 5em;
+   height: auto;
+}
+.iconos{
+    font-size: 3em ;
+}
+.form{
+    width: 90%;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 1rem;
+    padding: .8em 1em;
+}
+.form_container{
+    width: 100%;
+    display: grid;
+    gap:1em;
+    grid-auto-columns: 100%;
+    }
+.name_cv{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: .4em;
+    }
+.form_input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border-radius: 0.2em;
+    }
+.form_input--message{
+    resize: none;
+    padding: 1.8em;
+    margin-bottom: .8em;
+    }
+.form_cta{
+font-family: inherit;
+color: black ;
+}
+h1 {
+    font-size: 40px;
+    text-align: center ; color: yellowgreen;
+    }
+#imagen{
+    height: auto;
+    border-radius: 50%; border: 5px solid yellowgreen;
+    }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 100%;
+}
+.contacto{
+    background-image: -webkit-image-set("fondo3.jpg");
+    height: auto;
+}
+.datos_contacto{
+    margin-left: 5em;
+    font-size: 15px;
+   
+}
